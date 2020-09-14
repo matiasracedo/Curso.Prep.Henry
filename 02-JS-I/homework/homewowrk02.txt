@@ -1,0 +1,16 @@
+homewowrk02.txt
+
+VARIABLES
+Es una forma de almacenar el valor de algo para usarlo más tarde.
+
+STRINGS
+Es uno de los tipos de datos, cadena de texto que va entre comillas.
+
+FUNCIONES (argumentos, return)
+Las funciones son objetos invocables. Los datos no escapan de una función, a menos que usemos la declaración return, de otro modo están fuera de alcance, o scope.
+
+DECLARACIONES if
+If es un operador que nos permite verificar si algo es true o false.
+
+VALORES BOOLEANOS (true, false)
+Se utilizan en javascript para asignar a una variable los valores true o false.
