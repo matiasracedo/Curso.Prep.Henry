@@ -1,0 +1,10 @@
+homework03.txt
+
+FOR
+Un tipo de bucle, que se utiliza cuando conozco la condición de parada. Evaluará la expresión condicional, y si devuelve true, se volverá a ejecutar mientras la condición se cumpla.
+
+&&, ||, !
+Son operadores lógicos, evaluan dos expresiones y devuelven un resultado booleano, es decir, true o false.
+&& es el operador "Y" (AND), evaluará ambas expresiones y devolverá true solo si AMBAS son verdaderas. Si una de las dos es falsa, devolverá false.
+|| es el operador "Ó" (OR), determinará si alguna de las expresiones es verdadera. Devolverá false solamente si AMBAS epresiones son falsas.
+! es el operador "NO" (NOT), devolverá el valor booleano opuesto de lo que se le pasa.
