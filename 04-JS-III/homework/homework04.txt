@@ -1,0 +1,4 @@
+homework04.txt
+
+ARRAYS
+Los arreglos o matrices son como contenedores de almacenamiento para colecciones de datos. Pueden contener múltiples tipos de datos diferentes.
