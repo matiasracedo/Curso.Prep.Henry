@@ -1,0 +1,26 @@
+homework05.txt
+
+OBJETOS
+Los objetos son contenedores de datos, como los arrays, pero con la diferencia de que contienen mucha información sobre una sola cosa. No tienen índices como las matrices, sino pares clave:valor. 
+
+PROPIEDADES
+Las propiedades de los objetos hace referencia a los pares clave:valor.
+
+MÉTODOS
+En los objetos, los valores se pueden establecer en funciones, que se denominan métodos. Podemos llamar a este método usando la notación de puntos y paréntesis finales.
+
+BUCLE for...in
+Los objetos no contienen índices numéricos, por lo que el bucle estándar no funciona, así que se utiliza un segundo bucle integrado llamado "for...in loop".
+
+NOTACIÓN DE PUNTOS vs NOTACIÓN DE CORCHETES
+Para acceder a los valores, llamamos al nombre del objeto y la clave. Se puede hacer de dos maneras diferentes:
+- Usando la notación de puntos:
+> nombreDelObjeto.clave;
+< valor
+- Usando la notación de corchetes, es como llamar a un elemento en una matriz, pero se debe usar una cadena, o un valor que haga referencia a la clave:
+> const ejemplo = 'clave2';
+
+> nombreDelObjeto['clave'];
+< valor
+> nombreDelObjeto[ejemplo];
+> valor2
