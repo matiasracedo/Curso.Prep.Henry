@@ -24,10 +24,9 @@ function incrementarPorUno(array) {
   // y devuelve el array
   // Tu código:
   for (var i = 0; i < array.length; i++) {
-    array.unshift(array[array.length - 1] + 1);
-    array.pop(array[array.length -1])  
-  }
-  return array;
+    array[i] = array[i] + 1;
+ }
+ return array;
 }
 
 function agregarItemAlFinalDelArray(array, elemento) {
@@ -71,7 +70,9 @@ function agregarNumeros(numeros) {
   // "array" debe ser una matriz de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
-  var total = numeros.reduce(function(a, b) { return a + b; });
+  var total = numeros.reduce(function(a, b) {
+    return a + b;
+  });
   return total;
 }
 
